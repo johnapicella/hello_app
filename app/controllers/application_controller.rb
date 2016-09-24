@@ -8,4 +8,8 @@ class ApplicationController < ActionController::Base
   def goodbye
     render html: 'goodbye, world!'
   end
+
+  def kelso_message
+    render html: 'Kelso, hurry up and finish chapter 1!'
+  end
 end
